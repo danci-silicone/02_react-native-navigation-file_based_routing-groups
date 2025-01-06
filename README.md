@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# React-Native File-based routing with Groups Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native Logo](https://reactnative.dev/img/header_logo.svg)
 
-## Get started
 
-1. Install dependencies
+## O projektu
 
+### Općenito o projektu
+- Ovo je mobilna aplikacija izrađena pomoću [React Native](https://reactnative.dev/), popularnog okvira za izradu native aplikacija koristeći React.
+
+### Konkretno o projektu
+- Ova aplikacija koristi i grupe.
+- Grupa se kreira kako bi organizirala slične rute ili sekcije aplikacije.
+
+## Preduvjeti
+Prije pokretanja ovog projekta, provjerite imate li instalirano sljedeće:
+
+- Node.js (>= 14.x)
+- npm (>= 6.x) ili yarn (>= 1.x)
+- React Native CLI ili Expo CLI
+
+## Instalacija
+1. Klonirajte repozitorij:
+   ```bash
+   git clone https://github.com/danci-silicone/02_react-native-navigation-file_based_routing-groups
+   ```
+
+2. Instalirajte pakete:
    ```bash
    npm install
+   # ili
+   yarn install
    ```
 
-2. Start the app
+## Pokretanje aplikacije
 
+### Korištenje Yarn za web aplikaciju:
+Ako koristite Expo i želite pokrenuti aplikaciju u web pregledniku:
+1. Pokrenite web poslužitelj:
    ```bash
-    npx expo start
+   yarn web
    ```
+2. Aplikacija će se otvoriti u vašem zadanom web pregledniku.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Korišteni resursi
+Ovo su web stranice koje su korištene tijekom razvoja:
+- [Groups - Expo docs](https://docs.expo.dev/develop/file-based-routing/#groups)
